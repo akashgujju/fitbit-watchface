@@ -1,0 +1,32 @@
+{
+  "fitbit": {
+    "appUUID": "ae253f04-8b66-40c8-a82b-fe6b71d61d3a",
+    "appType": "clockface",
+    "appDisplayName": "AkashClock",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "",
+    "requestedPermissions": [
+      "access_heart_rate",
+      "run_background",
+      "access_activity",
+      "access_location",
+      "access_exercise",
+      "access_user_profile",
+      "access_internet"
+    ],
+    "buildTargets": [
+      "higgs",
+      "meson",
+      "gemini"
+    ],
+    "i18n": {
+      "en": {
+        "name": "AkashClock"
+      }
+    },
+    "defaultLanguage": "en-US"
+  },
+  "devDependencies": {
+    "@fitbit/sdk": "~3.1.0"
+  }
+}

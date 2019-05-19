@@ -1,0 +1,44 @@
+.background {
+  viewport-fill: pink;
+}
+
+
+#dates{
+  font-size: 30;
+  text-length: 32;
+  font-family:  System-Bold;
+  text-anchor: middle;
+  x: 50%;
+  y: 30%;
+  fill: lightcoral;
+  
+}
+#myLabel {
+  font-size: 70;
+  font-family: Tungsten-Medium;
+  text-length: 50;
+  text-anchor: middle;
+  x: 50%;
+  y: 50%+40;
+  fill: white;
+}
+
+#heartrt  {
+  font-size: 30;
+  text-length: 32;
+  font-family:  Tungsten-Medium;
+  x: 5%;
+  y: 95%;
+  fill: palevioletred;
+}
+
+
+#stepss{
+  font-size: 30;
+  text-length: 32;
+  font-family:  Tungsten-Medium;
+  x: 90%;
+  y: 95%;
+  fill: palevioletred;
+  text-anchor: end;
+}
